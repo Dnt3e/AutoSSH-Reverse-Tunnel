@@ -39,6 +39,6 @@ After running the installation command, the script will prompt you for the follo
 Run the following command on your **Source Server** (e.g., the server outside the restricted network):
 
 ```bash
-wget https://raw.githubusercontent.com/Dnt3e/AutoSSH-Reverse-Tunnel/main/tunnel.sh
-chmod +x tunnel.sh
-./tunnel.sh
+wget https://raw.githubusercontent.com/Dnt3e/AutoSSH-Reverse-Tunnel/main/Tunnel.sh
+chmod +x Tunnel.sh
+./Tunnel.sh
