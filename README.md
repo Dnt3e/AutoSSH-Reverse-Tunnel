@@ -22,4 +22,6 @@ This tool is specifically designed for scenarios where inbound traffic is blocke
 Run the following command on your **Source Server** (e.g., the server outside the restricted network):
 
 ```bash
-bash <(curl -Ls https://raw.githubusercontent.com/Dnt3e/AutoSSH-Reverse-Tunnel/main/tunnel.sh)
+wget https://raw.githubusercontent.com/Dnt3e/AutoSSH-Reverse-Tunnel/main/tunnel.sh
+chmod +x tunnel.sh
+./tunnel.sh
